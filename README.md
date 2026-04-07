@@ -1,5 +1,5 @@
-# Tetris-Earrings
-Earrings that display a Tetris animation with an LED matrix. Made for my dear girlfriend. PCB designed in KiCad.
+# Falling Shapes Earrings
+Earrings that display a falling shapes animation with an LED matrix. Made for my dear girlfriend. PCB designed in KiCad.
 
 ## License
 
