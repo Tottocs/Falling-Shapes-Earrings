@@ -1,0 +1,40 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1")
+	(paper "A4")
+	(title_block
+		(title "Falling Shapes Earrings")
+		(date "2026-04-07")
+		(rev "v.0.01")
+		(company "Tottocs")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Schematic - A4 - Landscape - Verbose Title Block.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WB+Co0UAGYdXSDwWDfQMcmeRX1I1CsLF7kcfvXDy3Yvz/JMzQLP4Lx9KlQATABVAPgfgyP8
+				H4/Ncva1nvyJNt9x0VDnJfvzHGvya0VDvWZ7yo5/8i8AAAHBiPQ+ymthbSzL8Y04sjrj/7Jf9xiy
+				OSdGJe2L7Zi9VAAEBGPItOF8oQ0VAn9xZ3alPeKRNa3+kz/4VWKVtqyoUw6v/c9HnrPfjMMXW7a0
+				QiEWwXbx7bd/vjmXhPPXVv91kQiHtGlzri9oyzn78/ejZbWLvvuhZ1F0Xo8dHbLIbnJbLwVdabhG
+				ZUJ5qAgKxZxzDg6rwbt/unpN2tmKo2zdhtEsKkIzSm7JstpyznphnUmG/wfJGZX9r4eN6tgfSaBK
+				ezZQtLYEQVBOrAAIAYEB8xqQjXbpuk3ibV5CfOstMpp1olxk67TKUTbv4tgsXrdBsmnRHJPLhFga
+				FIdcaJMGt/E4bZNIjCL+uhUfiQSGSSopAkGxDBSRuObkDzvqxfZJoM0/2nug0UhomCIRGS1IKh1w
+				RKToiHMoCD+GOZUdlpmqv21Qd9TwmSCiZsymbigSBmfMG6XjQe6Lqxgy64MAYWDiPwoot3y41Y5A
+				05E+o8lfLFQ676pcBaqGbl2ho4PgYKExNy6kj2IeirYutBw0K0vvxpIDgLu5tFpsZ8LTZajlaafZ
+				UJrmezAftJxy+8Z0qLYHgImDF2Au+VmQEjPHVQu6SnBEBw/YBaJOpijMRB62l1sk6wsdNfSHBAKa
+				s9QHxQpeOccHceMA52EhgOQTVmPdxRe8Mm2vzadfEAgS9QQpwU1fvIAHhznRTegsDYFFMcH81YCB
+				hw9TH6jMsaKTlDaT8jYih5ziEfMSHZq0NN05699YPuJ+ctIAagx6FQ==|
+			)
+			(checksum "CE5F634BF177E1778C48F6CF5AD8F769")
+		)
+	)
+)
