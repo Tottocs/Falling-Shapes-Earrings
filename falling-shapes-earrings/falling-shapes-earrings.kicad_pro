@@ -498,7 +498,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "General Components"
+    ]
   },
   "meta": {
     "filename": "falling-shapes-earrings.kicad_pro",
