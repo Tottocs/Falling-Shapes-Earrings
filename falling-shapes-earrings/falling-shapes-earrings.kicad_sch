@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1")
-	(paper "A4")
+	(paper "A5")
 	(title_block
 		(title "Falling Shapes Earrings")
 		(date "2026-04-07")
@@ -35882,6 +35882,264 @@
 				)
 			)
 		)
+		(symbol "Power Symbols:3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0001)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.3V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power Net"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3.3V_1_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power Symbols:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0001)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "GND power symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy 1.27 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.27) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.778) (xy 0.254 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(pin power_out line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power:SMTU1632-LF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -59488,6 +59746,12 @@
 			)
 		)
 	)
+	(junction
+		(at 29.21 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afec2d0f-985c-49c2-9596-b472f26946fc")
+	)
 	(wire
 		(pts
 			(xy 29.21 63.5) (xy 41.91 63.5)
@@ -59499,8 +59763,87 @@
 		(uuid "f75942c9-1fa2-4ba1-966b-b80da807464d")
 	)
 	(symbol
+		(lib_id "Power Symbols:GND")
+		(at 29.21 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dd86913-ee00-4985-8390-5598ad284f0d")
+		(property "Reference" "#PWR02"
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "GND power symbol"
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db632969-d004-4303-960e-7ed721e105e8")
+		)
+		(instances
+			(project "falling-shapes-earrings"
+				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Optoelectronics:WS2812B-2020")
-		(at 82.55 71.12 0)
+		(at 97.79 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -59511,7 +59854,7 @@
 		(fields_autoplaced yes)
 		(uuid "7da41abe-5589-4456-9555-1f51553c7c80")
 		(property "Reference" "D1"
-			(at 90.17 67.31 0)
+			(at 105.41 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59521,7 +59864,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59531,7 +59874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59542,7 +59885,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://WS2812B-2020-V6.pdf"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59553,7 +59896,7 @@
 			)
 		)
 		(property "Description" "Programmable multi colour LED, 2.2x2mm, 3.3-5V"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59564,7 +59907,7 @@
 			)
 		)
 		(property "COMP_TYPE" "LED"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59575,7 +59918,7 @@
 			)
 		)
 		(property "COMP_TYPE_SUB" ""
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59586,7 +59929,7 @@
 			)
 		)
 		(property "DEVICE_CREATION_METHOD" "Manual Entry"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59597,7 +59940,7 @@
 			)
 		)
 		(property "DEVICE_CREATOR_ID" "7"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59608,7 +59951,7 @@
 			)
 		)
 		(property "DEVICE_VERIFIED" "No"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59619,7 +59962,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1" "JLCPCB"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59630,7 +59973,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1_ORDER_CODE" "C52917434"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59641,7 +59984,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2" "TME"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59652,7 +59995,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2_ORDER_CODE" "WS2812B-2020-V6"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59663,7 +60006,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3" ""
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59674,7 +60017,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3_ORDER_CODE" ""
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59685,7 +60028,7 @@
 			)
 		)
 		(property "HEIGHT" "0.84mm"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59696,7 +60039,7 @@
 			)
 		)
 		(property "IF_DC_MAX" "Not Specified"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59707,7 +60050,7 @@
 			)
 		)
 		(property "LOCATION_MARKER_RADIUS" ""
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59718,7 +60061,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Worldsemi"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59729,7 +60072,7 @@
 			)
 		)
 		(property "MOUNTING_STYLE" "Surface Mount"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59740,7 +60083,7 @@
 			)
 		)
 		(property "MSL" "Not Specified"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59751,7 +60094,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MAX" "-40C"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59762,7 +60105,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MIN" "+85C"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59773,7 +60116,7 @@
 			)
 		)
 		(property "PACKAGE" " SMD2020-4P"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59784,7 +60127,7 @@
 			)
 		)
 		(property "PADS" "4"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59795,7 +60138,7 @@
 			)
 		)
 		(property "PART_NUMBER" "WS2812B-2020-V6"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59806,7 +60149,7 @@
 			)
 		)
 		(property "PINS" "0"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59817,7 +60160,7 @@
 			)
 		)
 		(property "PITCH" "N/A"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59828,7 +60171,7 @@
 			)
 		)
 		(property "POP_UNPOP" ""
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59839,7 +60182,7 @@
 			)
 		)
 		(property "ROHS_EU_COMPLIANT" "Yes"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59850,7 +60193,7 @@
 			)
 		)
 		(property "OPERATING_VOLTAGE" "3.3-5.3V"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59861,7 +60204,7 @@
 			)
 		)
 		(property "REFRESH_RATE" "2kHz"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59872,7 +60215,7 @@
 			)
 		)
 		(property "LUM_MAX" "650mcd"
-			(at 82.55 71.12 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59898,6 +60241,83 @@
 			(project "falling-shapes-earrings"
 				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power Symbols:3.3V")
+		(at 29.21 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "830f2504-51cc-4075-a36c-c5983f2c9da2")
+		(property "Reference" "#PWR01"
+			(at 29.21 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 29.21 60.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power Net"
+			(at 29.21 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99c25083-d4f1-4c42-b1c6-86fe5c73e975")
+		)
+		(instances
+			(project "falling-shapes-earrings"
+				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -60268,7 +60688,7 @@
 	)
 	(symbol
 		(lib_id "Power:SMTU1632-LF")
-		(at 53.34 36.83 0)
+		(at 43.18 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -60279,7 +60699,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9b80f56-cdb5-4440-9d47-53899e83fb79")
 		(property "Reference" "XBT1"
-			(at 64.77 41.9099 0)
+			(at 54.61 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60290,7 +60710,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60300,7 +60720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60311,7 +60731,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://renas00017-1.pdf"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60322,7 +60742,7 @@
 			)
 		)
 		(property "Description" "CR1632 battery cell housing, SMD"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60333,7 +60753,7 @@
 			)
 		)
 		(property "COMP_TYPE" "Coin Cell Socket"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60344,7 +60764,7 @@
 			)
 		)
 		(property "COMP_TYPE_SUB" "Not Specified"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60355,7 +60775,7 @@
 			)
 		)
 		(property "DEVICE_CREATION_METHOD" "Manual"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60366,7 +60786,7 @@
 			)
 		)
 		(property "DEVICE_CREATOR_ID" "7"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60377,7 +60797,7 @@
 			)
 		)
 		(property "DEVICE_VERIFIED" "No"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60388,7 +60808,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1" "Mouser"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60399,7 +60819,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1_ORDER_CODE" "614-SMTU1632-LF"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60410,7 +60830,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2" "Future Electronics"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60421,7 +60841,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2_ORDER_CODE" "SMTU1632-LF"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60432,7 +60852,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3" "Shukat"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60443,7 +60863,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3_ORDER_CODE" "SMTU1632-LF"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60454,7 +60874,7 @@
 			)
 		)
 		(property "FUNCTION" "Battery Holder"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60465,7 +60885,7 @@
 			)
 		)
 		(property "HEIGHT" "5.4mm"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60476,7 +60896,7 @@
 			)
 		)
 		(property "LOCATION_MARKER_RADIUS" ""
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60487,7 +60907,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Renata"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60498,7 +60918,7 @@
 			)
 		)
 		(property "MOUNTING_STYLE" "Surface Mount"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60509,7 +60929,7 @@
 			)
 		)
 		(property "MSL" "N/A"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60520,7 +60940,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MAX" "+100C"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60531,7 +60951,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MIN" "-40C"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60542,7 +60962,7 @@
 			)
 		)
 		(property "PACKAGE" "CR1632"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60553,7 +60973,7 @@
 			)
 		)
 		(property "PADS" "2"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60564,7 +60984,7 @@
 			)
 		)
 		(property "PART_NUMBER" "SMTU1632-LF"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60575,7 +60995,7 @@
 			)
 		)
 		(property "PINS" "0"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60586,7 +61006,7 @@
 			)
 		)
 		(property "PITCH" "N/A"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60597,7 +61017,7 @@
 			)
 		)
 		(property "POP_UNPOP" ""
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60608,7 +61028,7 @@
 			)
 		)
 		(property "ROHS_EU_COMPLIANT" "Yes"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60619,7 +61039,7 @@
 			)
 		)
 		(property "CELL_DIAMETER" "16mm"
-			(at 53.34 36.83 0)
+			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60639,6 +61059,85 @@
 			(project "falling-shapes-earrings"
 				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
 					(reference "XBT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power Symbols:GND")
+		(at 62.23 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf074ca4-ddf9-4f1e-8589-5fd68e4847bb")
+		(property "Reference" "#PWR03"
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "GND power symbol"
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75b0f801-5130-4e03-ae47-ad18ce9c41ea")
+		)
+		(instances
+			(project "falling-shapes-earrings"
+				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
