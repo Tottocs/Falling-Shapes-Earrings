@@ -499,7 +499,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "General Components"
+      "General Components",
+      "power"
     ]
   },
   "meta": {
@@ -676,7 +677,7 @@
         "uuid": "e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
       }
     ],
-    "used_designators": "",
+    "used_designators": "XBT1,U1,D1,C1",
     "variants": []
   },
   "sheets": [
