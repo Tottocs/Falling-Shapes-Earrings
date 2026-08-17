@@ -72043,12 +72043,6 @@
 		(uuid "252c9cb9-373d-41c8-8de7-776516e47e14")
 	)
 	(junction
-		(at 25.4 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27cfd949-cc02-47d1-bf2f-42208ac2a814")
-	)
-	(junction
 		(at 190.5 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -72179,6 +72173,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0864997-ba7a-4639-b6f3-ff95a6b43bc9")
+	)
+	(junction
+		(at 25.4 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da64c371-03c0-4ff0-a8bf-f0329d76ef3b")
 	)
 	(junction
 		(at 161.29 49.53)
