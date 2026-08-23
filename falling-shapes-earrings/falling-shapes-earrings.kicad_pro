@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -273,7 +273,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|228600|609600|266bbec1-5069-4f8a-94bd-35416540c526|00000000-0000-0000-0000-000000000000|/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1|/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1|",
+        "The output is before the switch, and therefore it flags it. This is not an issue."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -677,7 +682,7 @@
         "uuid": "e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
       }
     ],
-    "used_designators": "XBT1-2,U1-2,#PWR1-18,D1-20,S1,C1-5,P1",
+    "used_designators": "XBT1-2,U1-2,#PWR1-18,D1-20,S1,C1-5,P1,R1-3,TP1-3",
     "variants": []
   },
   "sheets": [
