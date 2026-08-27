@@ -7,7 +7,7 @@
 	(title_block
 		(title "Falling Shapes Earrings")
 		(date "2026-04-07")
-		(rev "v.0.20")
+		(rev "v.0.90")
 		(company "Tottocs")
 	)
 	(lib_symbols
@@ -137824,7 +137824,7 @@
 				)
 			)
 		)
-		(symbol "Test Points:Test Pad"
+		(symbol "Test Points:1mm Test Pad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -137846,18 +137846,17 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "SIGNAL"
 				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Test Points:Test Pad"
+			(property "Footprint" "Test Points:1mm Test Pad"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -137879,7 +137878,7 @@
 					)
 				)
 			)
-			(property "Description" "Copper Test Pad"
+			(property "Description" "1mm Circular Copper Test Pad"
 				(at 20.32 -8.382 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -137888,17 +137887,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "SIGNAL" ""
-				(at 2.54 2.794 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "COLOUR" "N/A"
@@ -138188,7 +138176,7 @@
 					)
 				)
 			)
-			(symbol "Test Pad_0_1"
+			(symbol "1mm Test Pad_0_1"
 				(polyline
 					(pts
 						(xy 0 2.54) (xy -1.27 3.81)
@@ -138214,7 +138202,396 @@
 					)
 				)
 			)
-			(symbol "Test Pad_1_1"
+			(symbol "1mm Test Pad_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "Test"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Test Points:2mm Test Pad "
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at -0.508 5.08 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SIGNAL"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Test Points:2mm Test Pad"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2mm Circular Copper Test Pad"
+				(at 20.32 -8.382 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "COLOUR" "N/A"
+				(at 2.54 0.762 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "COMP_TYPE" "Test Point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "COMP_TYPE_SUB" "Pad"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DEVICE_CREATION_METHOD" "Manual Entry"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DEVICE_CREATOR_ID" "7"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DEVICE_VERIFIED" "No"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DISTRIBUTOR1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DISTRIBUTOR1_ORDER_CODE" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DISTRIBUTOR2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DISTRIBUTOR2_ORDER_CODE" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DISTRIBUTOR3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DISTRIBUTOR3_ORDER_CODE" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FUNCTION" "Probing"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "HEIGHT" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MOUNTING_STYLE" "Surface Mount"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MSL" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "OPERATING_TEMP_MAX" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "OPERATING_TEMP_MIN" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PACKAGE" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PADS" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PART_NUMBER" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PINS" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PITCH" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ROHS_EU_COMPLIANT" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2mm Test Pad _0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2mm Test Pad _1_1"
 				(pin passive line
 					(at 0 0 90)
 					(length 2.54)
@@ -138390,7 +138767,7 @@
 	)
 	(rectangle
 		(start 81.28 20.32)
-		(end 193.675 97.79)
+		(end 193.675 106.68)
 		(stroke
 			(width 0)
 			(type dash)
@@ -138415,8 +138792,34 @@
 		(uuid "46773ac9-e62f-4b3e-9955-a23d40f38bcd")
 	)
 	(rectangle
+		(start 99.06 95.25)
+		(end 180.34 105.41)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4a7bc0d4-8759-4557-88d9-25ffbbe59cd4")
+	)
+	(rectangle
+		(start 17.78 118.11)
+		(end 76.2 134.62)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a7985418-2328-4f94-9be4-ab7dff14d832")
+	)
+	(rectangle
 		(start 17.78 96.52)
-		(end 76.2 127)
+		(end 76.2 113.03)
 		(stroke
 			(width 0)
 			(type dash)
@@ -138468,6 +138871,31 @@
 		)
 		(uuid "4f2ea84c-db8f-4361-a5c4-f7ece205c6b7")
 	)
+	(text "LED max current = 36mA\n20 x 36mA = 720mA !! Switch not rated for more than 300mA !!\nPlease limit to: 20 x 36mA/12 = 20 x 3mA = 60mA\nIf only using max 10 LEDs at a time can prolong battery life by more than 2x"
+		(exclude_from_sim no)
+		(at 139.7 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "59245677-5094-4785-a40c-a9fbe56c76c7")
+	)
+	(text "1.4 Charging Points"
+		(exclude_from_sim no)
+		(at 17.78 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7e4aa5b2-d5e1-486b-8891-13cad2446da4")
+	)
 	(text "1.2 Control System"
 		(exclude_from_sim no)
 		(at 17.78 52.07 0)
@@ -138484,7 +138912,7 @@
 	)
 	(text "LED Part Number: WS2812B-2020-V6"
 		(exclude_from_sim no)
-		(at 139.7 93.98 0)
+		(at 139.7 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -138493,7 +138921,7 @@
 		)
 		(uuid "cd235d46-9264-40f0-be66-b75a325c9d2d")
 	)
-	(text "1.4 LED Matrix"
+	(text "1.5 LED Matrix"
 		(exclude_from_sim no)
 		(at 81.28 19.05 0)
 		(effects
@@ -138773,6 +139201,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 127) (xy 55.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007f3206-01c6-4cc2-bd39-5135a8a328f3")
+	)
+	(wire
+		(pts
 			(xy 190.5 49.53) (xy 181.61 49.53)
 		)
 		(stroke
@@ -139023,7 +139461,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 111.76) (xy 60.96 115.57)
+			(xy 66.04 105.41) (xy 66.04 109.22)
 		)
 		(stroke
 			(width 0)
@@ -139103,7 +139541,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 111.76) (xy 22.86 115.57)
+			(xy 27.94 105.41) (xy 27.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -139140,6 +139578,16 @@
 			(type default)
 		)
 		(uuid "412f667a-16b2-4f11-9d51-e053582785f9")
+	)
+	(wire
+		(pts
+			(xy 33.02 129.54) (xy 39.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42955120-9cfb-47c9-a051-ad779f53aabd")
 	)
 	(wire
 		(pts
@@ -139503,7 +139951,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 111.76) (xy 43.18 115.57)
+			(xy 45.72 105.41) (xy 45.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -139773,7 +140221,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 72.39) (xy 36.83 72.39)
+			(xy 27.94 72.39) (xy 36.83 72.39)
 		)
 		(stroke
 			(width 0)
@@ -139833,7 +140281,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 115.57) (xy 30.48 115.57)
+			(xy 27.94 109.22) (xy 35.56 109.22)
 		)
 		(stroke
 			(width 0)
@@ -139850,16 +140298,6 @@
 			(type default)
 		)
 		(uuid "c36554c6-6ba6-42be-8ae2-d763623d8ec5")
-	)
-	(wire
-		(pts
-			(xy 43.18 115.57) (xy 45.72 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c462334e-766b-4ff2-9f5b-0a6070f41633")
 	)
 	(wire
 		(pts
@@ -139880,6 +140318,16 @@
 			(type default)
 		)
 		(uuid "c5f31424-a8b0-45b5-8a8b-812debb9df1f")
+	)
+	(wire
+		(pts
+			(xy 33.02 127) (xy 33.02 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76adfed-351c-4c3a-989b-c699b634a1da")
 	)
 	(wire
 		(pts
@@ -140073,6 +140521,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 109.22) (xy 50.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee456af7-7f62-469f-858c-ce04ebbda083")
+	)
+	(wire
+		(pts
 			(xy 137.16 72.39) (xy 138.43 72.39)
 		)
 		(stroke
@@ -140192,7 +140650,7 @@
 		(uuid "6dff78ad-e247-4ebc-8ef6-cc3ec9e309ac")
 	)
 	(label "LED_DAT"
-		(at 30.48 115.57 0)
+		(at 35.56 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -140210,6 +140668,26 @@
 			(justify bottom)
 		)
 		(uuid "75f3580f-3ca5-410b-a26a-16df1739f536")
+	)
+	(label "COIN_PWR"
+		(at 39.37 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "7f28f9f1-4270-4259-b628-5304b74b0574")
+	)
+	(label "COIN_PWR"
+		(at 38.1 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e38e4e1b-acde-4cf1-bba7-929e4756caf2")
 	)
 	(symbol
 		(lib_id "Optoelectronics:WS2812B-2020")
@@ -141058,86 +141536,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Power Symbols:3.3V")
-		(at 25.4 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "182d9647-c52e-49e5-ab0b-f503d877d1b3")
-		(property "Reference" "#PWR03"
-			(at 25.4 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 19.05 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power Net"
-			(at 25.4 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72c62269-c457-4a2d-9f4a-b22a732c9c11")
-		)
-		(instances
-			(project "falling-shapes-earrings"
-				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Test Points:Test Pad")
-		(at 43.18 111.76 0)
+		(lib_id "Test Points:1mm Test Pad")
+		(at 45.72 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -141148,7 +141548,7 @@
 		(fields_autoplaced yes)
 		(uuid "238659c9-a6a3-4262-81b3-dc6af54175b2")
 		(property "Reference" "TP2"
-			(at 42.672 106.68 0)
+			(at 45.212 100.33 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -141157,19 +141557,19 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 48.26 113.03 0)
-			(hide yes)
+		(property "Value" "PWR"
+			(at 48.26 102.2349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Test Points:Test Pad"
-			(at 43.18 111.76 0)
+		(property "Footprint" "Test Points:1mm Test Pad"
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141180,7 +141580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141190,8 +141590,8 @@
 				)
 			)
 		)
-		(property "Description" "Copper Test Pad"
-			(at 63.5 120.142 0)
+		(property "Description" "1mm Circular Copper Test Pad"
+			(at 66.04 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141202,7 +141602,8 @@
 			)
 		)
 		(property "SIGNAL" ""
-			(at 45.72 108.966 0)
+			(at 48.26 102.616 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -141213,7 +141614,7 @@
 			)
 		)
 		(property "COLOUR" "N/A"
-			(at 45.72 110.998 0)
+			(at 48.26 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -141225,7 +141626,7 @@
 			)
 		)
 		(property "COMP_TYPE" "Test Point"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141236,7 +141637,7 @@
 			)
 		)
 		(property "COMP_TYPE_SUB" "Pad"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141247,7 +141648,7 @@
 			)
 		)
 		(property "DEVICE_CREATION_METHOD" "Manual Entry"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141258,7 +141659,7 @@
 			)
 		)
 		(property "DEVICE_CREATOR_ID" "7"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141269,7 +141670,7 @@
 			)
 		)
 		(property "DEVICE_VERIFIED" "No"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141280,7 +141681,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1" ""
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141291,7 +141692,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1_ORDER_CODE" ""
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141302,7 +141703,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2" ""
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141313,7 +141714,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2_ORDER_CODE" ""
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141324,7 +141725,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3" ""
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141335,7 +141736,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3_ORDER_CODE" ""
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141346,7 +141747,7 @@
 			)
 		)
 		(property "FUNCTION" "Probing"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141357,7 +141758,7 @@
 			)
 		)
 		(property "HEIGHT" "0"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141368,7 +141769,7 @@
 			)
 		)
 		(property "MANUFACTURER" "N/A"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141379,7 +141780,7 @@
 			)
 		)
 		(property "MOUNTING_STYLE" "Surface Mount"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141390,7 +141791,7 @@
 			)
 		)
 		(property "MSL" "N/A"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141401,7 +141802,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MAX" "N/A"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141412,7 +141813,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MIN" "N/A"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141423,7 +141824,7 @@
 			)
 		)
 		(property "PACKAGE" "N/A"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141434,7 +141835,7 @@
 			)
 		)
 		(property "PADS" "1"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141445,7 +141846,7 @@
 			)
 		)
 		(property "PART_NUMBER" "N/A"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141456,7 +141857,7 @@
 			)
 		)
 		(property "PINS" "0"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141467,7 +141868,7 @@
 			)
 		)
 		(property "PITCH" "N/A"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141478,7 +141879,7 @@
 			)
 		)
 		(property "ROHS_EU_COMPLIANT" "Yes"
-			(at 43.18 111.76 0)
+			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143550,6 +143951,361 @@
 		)
 	)
 	(symbol
+		(lib_id "Test Points:2mm Test Pad ")
+		(at 55.88 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31299dac-8b19-483c-9b56-69c173b7ad86")
+		(property "Reference" "TP5"
+			(at 55.372 121.92 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-"
+			(at 58.42 123.8249 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Test Points:2mm Test Pad"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2mm Circular Copper Test Pad"
+			(at 76.2 135.382 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "COLOUR" "N/A"
+			(at 58.42 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "COMP_TYPE" "Test Point"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "COMP_TYPE_SUB" "Pad"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DEVICE_CREATION_METHOD" "Manual Entry"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DEVICE_CREATOR_ID" "7"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DEVICE_VERIFIED" "No"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR1" ""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR1_ORDER_CODE" ""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR2" ""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR2_ORDER_CODE" ""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR3" ""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR3_ORDER_CODE" ""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FUNCTION" "Probing"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" "0"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "N/A"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUNTING_STYLE" "Surface Mount"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MSL" "N/A"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OPERATING_TEMP_MAX" "N/A"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OPERATING_TEMP_MIN" "N/A"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "N/A"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PADS" "1"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NUMBER" "N/A"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PINS" "0"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PITCH" "N/A"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROHS_EU_COMPLIANT" "Yes"
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f086c8a-c762-4e51-aed7-413bed3f25ca")
+		)
+		(instances
+			(project "falling-shapes-earrings"
+				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 143.51 85.09 0)
 		(unit 1)
@@ -143630,7 +144386,7 @@
 	)
 	(symbol
 		(lib_id "Resistors:RC0805JR-1310KL")
-		(at 30.48 72.39 0)
+		(at 27.94 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -143638,31 +144394,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4cf74796-87fd-42d9-8b2d-8053a5f3235b")
 		(property "Reference" "R1"
-			(at 27.94 70.485 0)
+			(at 29.21 76.2 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 30.48 74.295 0)
+			(at 29.21 77.47 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "Resistors:R0805_0_25"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143673,7 +144429,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://RC0805FR-07100RL.pdf"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143684,7 +144440,7 @@
 			)
 		)
 		(property "Description" "10k, 0805 SMD Resistor, 125mW, 5%"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143695,7 +144451,7 @@
 			)
 		)
 		(property "COMPOSITION" "Thick Film"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143706,7 +144462,7 @@
 			)
 		)
 		(property "COMP_TYPE" "Resistor"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143717,7 +144473,7 @@
 			)
 		)
 		(property "COMP_TYPE_SUB" "Not Specified"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143728,7 +144484,7 @@
 			)
 		)
 		(property "DEVICE_CREATION_METHOD" "Manual"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143739,7 +144495,7 @@
 			)
 		)
 		(property "DEVICE_CREATOR_ID" "7"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143750,7 +144506,7 @@
 			)
 		)
 		(property "DEVICE_VERIFIED" "No"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143761,7 +144517,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1" "Mouser"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143772,7 +144528,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1_ORDER_CODE" "603-RC0805JR-1310KL"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143783,7 +144539,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2" "Digikey"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143794,7 +144550,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2_ORDER_CODE" "13-RC0805JR-1310KLCT-ND"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143805,7 +144561,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3" "Arrow Electronics"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143816,7 +144572,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3_ORDER_CODE" "RC0805JR-1310KL"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143827,7 +144583,7 @@
 			)
 		)
 		(property "FUNCTION" "Not Specified"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143838,7 +144594,7 @@
 			)
 		)
 		(property "HEIGHT" "0.6mm"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143849,7 +144605,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143860,7 +144616,7 @@
 			)
 		)
 		(property "MOUNTING_STYLE" "Surface Mount"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143871,7 +144627,7 @@
 			)
 		)
 		(property "MSL" "1 (Unlimited)"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143882,7 +144638,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MAX" "+155C"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143893,7 +144649,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MIN" "-55C"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143904,7 +144660,7 @@
 			)
 		)
 		(property "PACKAGE" "0805"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143915,7 +144671,7 @@
 			)
 		)
 		(property "PADS" "2"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143926,7 +144682,7 @@
 			)
 		)
 		(property "PART_NUMBER" "RC0805JR-1310KL"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143937,7 +144693,7 @@
 			)
 		)
 		(property "PINS" "0"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143948,7 +144704,7 @@
 			)
 		)
 		(property "PITCH" "N/A"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143959,7 +144715,7 @@
 			)
 		)
 		(property "RATED_POWER" "125mW"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143970,7 +144726,7 @@
 			)
 		)
 		(property "ROHS_EU_COMPLIANT" "Yes"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143981,7 +144737,7 @@
 			)
 		)
 		(property "TEMPERATURE_COEFFICIENT" "+/-100PPM/C"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143992,7 +144748,7 @@
 			)
 		)
 		(property "TOLERANCE" "+/-5%"
-			(at 30.48 76.2 0)
+			(at 31.75 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -144003,7 +144759,7 @@
 			)
 		)
 		(property "RATED_VOLTAGE" "150V"
-			(at 30.48 72.39 0)
+			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144029,8 +144785,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Test Points:Test Pad")
-		(at 22.86 111.76 0)
+		(lib_id "Test Points:1mm Test Pad")
+		(at 27.94 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -144041,7 +144797,7 @@
 		(fields_autoplaced yes)
 		(uuid "595aeae9-107a-4d62-bf79-bce94dbf84b3")
 		(property "Reference" "TP1"
-			(at 22.352 106.68 0)
+			(at 27.432 100.33 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -144050,8 +144806,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 27.94 113.03 0)
+		(property "Value" "LED_DAT"
+			(at 30.48 102.2349 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144059,10 +144815,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Test Points:Test Pad"
-			(at 22.86 111.76 0)
+		(property "Footprint" "Test Points:1mm Test Pad"
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144073,7 +144830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144083,8 +144840,8 @@
 				)
 			)
 		)
-		(property "Description" "Copper Test Pad"
-			(at 43.18 120.142 0)
+		(property "Description" "1mm Circular Copper Test Pad"
+			(at 48.26 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144095,7 +144852,8 @@
 			)
 		)
 		(property "SIGNAL" ""
-			(at 25.4 108.966 0)
+			(at 30.48 102.616 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -144106,7 +144864,7 @@
 			)
 		)
 		(property "COLOUR" "N/A"
-			(at 25.4 110.998 0)
+			(at 30.48 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -144118,7 +144876,7 @@
 			)
 		)
 		(property "COMP_TYPE" "Test Point"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144129,7 +144887,7 @@
 			)
 		)
 		(property "COMP_TYPE_SUB" "Pad"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144140,7 +144898,7 @@
 			)
 		)
 		(property "DEVICE_CREATION_METHOD" "Manual Entry"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144151,7 +144909,7 @@
 			)
 		)
 		(property "DEVICE_CREATOR_ID" "7"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144162,7 +144920,7 @@
 			)
 		)
 		(property "DEVICE_VERIFIED" "No"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144173,7 +144931,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1" ""
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144184,7 +144942,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1_ORDER_CODE" ""
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144195,7 +144953,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2" ""
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144206,7 +144964,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2_ORDER_CODE" ""
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144217,7 +144975,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3" ""
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144228,7 +144986,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3_ORDER_CODE" ""
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144239,7 +144997,7 @@
 			)
 		)
 		(property "FUNCTION" "Probing"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144250,7 +145008,7 @@
 			)
 		)
 		(property "HEIGHT" "0"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144261,7 +145019,7 @@
 			)
 		)
 		(property "MANUFACTURER" "N/A"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144272,7 +145030,7 @@
 			)
 		)
 		(property "MOUNTING_STYLE" "Surface Mount"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144283,7 +145041,7 @@
 			)
 		)
 		(property "MSL" "N/A"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144294,7 +145052,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MAX" "N/A"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144305,7 +145063,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MIN" "N/A"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144316,7 +145074,7 @@
 			)
 		)
 		(property "PACKAGE" "N/A"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144327,7 +145085,7 @@
 			)
 		)
 		(property "PADS" "1"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144338,7 +145096,7 @@
 			)
 		)
 		(property "PART_NUMBER" "N/A"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144349,7 +145107,7 @@
 			)
 		)
 		(property "PINS" "0"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144360,7 +145118,7 @@
 			)
 		)
 		(property "PITCH" "N/A"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144371,7 +145129,7 @@
 			)
 		)
 		(property "ROHS_EU_COMPLIANT" "Yes"
-			(at 22.86 111.76 0)
+			(at 27.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -146871,84 +147629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power Symbols:3.3V")
-		(at 45.72 115.57 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81eb5c5b-085e-441e-833a-0d10eda79d72")
-		(property "Reference" "#PWR05"
-			(at 45.72 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 48.26 115.57 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power Net"
-			(at 45.72 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45ed26b0-31c6-48c4-a31f-c409c9b3e4f3")
-		)
-		(instances
-			(project "falling-shapes-earrings"
-				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Optoelectronics:WS2812B-2020")
 		(at 121.92 60.96 0)
 		(unit 1)
@@ -147333,6 +148013,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 27.94 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c82188a-9171-4aa0-8298-275ac3800321")
+		(property "Reference" "#PWR03"
+			(at 27.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 27.94 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 27.94 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1ffdce8-42c1-4190-bd1a-44a0280de238")
+		)
+		(instances
+			(project "falling-shapes-earrings"
+				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Optoelectronics:WS2812B-2020")
 		(at 121.92 49.53 0)
 		(unit 1)
@@ -147711,6 +148470,85 @@
 			(project "falling-shapes-earrings"
 				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power Symbols:3.3V")
+		(at 50.8 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99cd07ca-4cc5-4b13-b9e6-98b7aeefdadf")
+		(property "Reference" "#PWR017"
+			(at 50.8 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 53.34 109.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power Net"
+			(at 50.8 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa9a9bd1-08e6-4721-baf4-27c3873de5ad")
+		)
+		(instances
+			(project "falling-shapes-earrings"
+				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -149693,6 +150531,361 @@
 		)
 	)
 	(symbol
+		(lib_id "Test Points:2mm Test Pad ")
+		(at 33.02 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6e453e3-2e68-45da-b20b-d2b2cab4abfc")
+		(property "Reference" "TP4"
+			(at 32.512 121.92 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+"
+			(at 35.56 123.8249 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Test Points:2mm Test Pad"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2mm Circular Copper Test Pad"
+			(at 53.34 135.382 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "COLOUR" "N/A"
+			(at 35.56 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "COMP_TYPE" "Test Point"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "COMP_TYPE_SUB" "Pad"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DEVICE_CREATION_METHOD" "Manual Entry"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DEVICE_CREATOR_ID" "7"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DEVICE_VERIFIED" "No"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR1" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR1_ORDER_CODE" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR2" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR2_ORDER_CODE" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR3" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR3_ORDER_CODE" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FUNCTION" "Probing"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" "0"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "N/A"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUNTING_STYLE" "Surface Mount"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MSL" "N/A"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OPERATING_TEMP_MAX" "N/A"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OPERATING_TEMP_MIN" "N/A"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "N/A"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PADS" "1"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NUMBER" "N/A"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PINS" "0"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PITCH" "N/A"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROHS_EU_COMPLIANT" "Yes"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65bb2dba-71d0-4b51-8a2d-06cd7249fccc")
+		)
+		(instances
+			(project "falling-shapes-earrings"
+				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Optoelectronics:WS2812B-2020")
 		(at 144.78 26.67 0)
 		(unit 1)
@@ -150714,7 +151907,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 60.96 115.57 0)
+		(at 66.04 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -150725,7 +151918,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7f967d1-6250-43c3-8a41-0208945d8adb")
 		(property "Reference" "#PWR06"
-			(at 60.96 121.92 0)
+			(at 66.04 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -150736,7 +151929,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 60.96 119.38 0)
+			(at 66.04 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -150747,7 +151940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 115.57 0)
+			(at 66.04 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -150758,7 +151951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 115.57 0)
+			(at 66.04 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -150769,7 +151962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 60.96 115.57 0)
+			(at 66.04 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -152057,6 +153250,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 55.88 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddad3148-04e7-4d78-b91d-214ca7c4b429")
+		(property "Reference" "#PWR018"
+			(at 55.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 55.88 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 55.88 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c9f8d98-a0ce-4e29-a39b-c0f4f038708f")
+		)
+		(instances
+			(project "falling-shapes-earrings"
+				(path "/e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Optoelectronics:WS2812B-2020")
 		(at 166.37 49.53 0)
 		(unit 1)
@@ -153192,9 +154464,8 @@
 			)
 		)
 		(property "RATED_CURRENT" "300mA"
-			(at 54.61 29.21 0)
-			(hide yes)
-			(show_name no)
+			(at 57.15 34.29 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -153356,8 +154627,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Test Points:Test Pad")
-		(at 60.96 111.76 0)
+		(lib_id "Test Points:1mm Test Pad")
+		(at 66.04 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -153368,7 +154639,7 @@
 		(fields_autoplaced yes)
 		(uuid "ede5be72-4f2f-4262-87fb-cfae78ede862")
 		(property "Reference" "TP3"
-			(at 60.452 106.68 0)
+			(at 65.532 100.33 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -153377,19 +154648,19 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 66.04 113.03 0)
-			(hide yes)
+		(property "Value" "GND"
+			(at 68.58 102.2349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Test Points:Test Pad"
-			(at 60.96 111.76 0)
+		(property "Footprint" "Test Points:1mm Test Pad"
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153400,7 +154671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153410,8 +154681,8 @@
 				)
 			)
 		)
-		(property "Description" "Copper Test Pad"
-			(at 81.28 120.142 0)
+		(property "Description" "1mm Circular Copper Test Pad"
+			(at 86.36 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153422,7 +154693,8 @@
 			)
 		)
 		(property "SIGNAL" ""
-			(at 63.5 108.966 0)
+			(at 68.58 102.616 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -153433,7 +154705,7 @@
 			)
 		)
 		(property "COLOUR" "N/A"
-			(at 63.5 110.998 0)
+			(at 68.58 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -153445,7 +154717,7 @@
 			)
 		)
 		(property "COMP_TYPE" "Test Point"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153456,7 +154728,7 @@
 			)
 		)
 		(property "COMP_TYPE_SUB" "Pad"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153467,7 +154739,7 @@
 			)
 		)
 		(property "DEVICE_CREATION_METHOD" "Manual Entry"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153478,7 +154750,7 @@
 			)
 		)
 		(property "DEVICE_CREATOR_ID" "7"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153489,7 +154761,7 @@
 			)
 		)
 		(property "DEVICE_VERIFIED" "No"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153500,7 +154772,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1" ""
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153511,7 +154783,7 @@
 			)
 		)
 		(property "DISTRIBUTOR1_ORDER_CODE" ""
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153522,7 +154794,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2" ""
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153533,7 +154805,7 @@
 			)
 		)
 		(property "DISTRIBUTOR2_ORDER_CODE" ""
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153544,7 +154816,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3" ""
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153555,7 +154827,7 @@
 			)
 		)
 		(property "DISTRIBUTOR3_ORDER_CODE" ""
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153566,7 +154838,7 @@
 			)
 		)
 		(property "FUNCTION" "Probing"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153577,7 +154849,7 @@
 			)
 		)
 		(property "HEIGHT" "0"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153588,7 +154860,7 @@
 			)
 		)
 		(property "MANUFACTURER" "N/A"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153599,7 +154871,7 @@
 			)
 		)
 		(property "MOUNTING_STYLE" "Surface Mount"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153610,7 +154882,7 @@
 			)
 		)
 		(property "MSL" "N/A"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153621,7 +154893,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MAX" "N/A"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153632,7 +154904,7 @@
 			)
 		)
 		(property "OPERATING_TEMP_MIN" "N/A"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153643,7 +154915,7 @@
 			)
 		)
 		(property "PACKAGE" "N/A"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153654,7 +154926,7 @@
 			)
 		)
 		(property "PADS" "1"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153665,7 +154937,7 @@
 			)
 		)
 		(property "PART_NUMBER" "N/A"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153676,7 +154948,7 @@
 			)
 		)
 		(property "PINS" "0"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153687,7 +154959,7 @@
 			)
 		)
 		(property "PITCH" "N/A"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153698,7 +154970,7 @@
 			)
 		)
 		(property "ROHS_EU_COMPLIANT" "Yes"
-			(at 60.96 111.76 0)
+			(at 66.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
