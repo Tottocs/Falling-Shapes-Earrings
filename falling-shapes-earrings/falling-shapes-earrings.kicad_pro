@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -76,7 +76,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "padstack|87000000|68850000|05458d2d-42be-4515-9966-b57683f2ed6d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|87000000|76150000|49546251-aa28-481a-8c64-d0c2c07c5e26|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|89000000|68850000|9de130ad-399a-4267-84ac-f3b0865f56e0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|89000000|76150000|2f0df1ef-a8d0-4061-b243-3e7ad7e9d164|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|85915000|89450000|f1db5bd9-177e-4557-a751-65677c3a95ce|e09bce78-03d7-4582-bbf9-8c949ee714fa|F.Cu",
+          "Has via support"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -111,7 +132,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -125,7 +146,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -146,7 +167,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -210,7 +231,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +265,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -253,7 +280,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v.0.20"
+      "sch_revision": "v.0.90"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -682,7 +709,7 @@
         "uuid": "e843ce9a-bcd1-456f-ad7f-96c48cfdf7a1"
       }
     ],
-    "used_designators": "XBT1-2,U1-2,#PWR1-18,D1-20,S1,C1-5,P1,R1-3,TP1-3",
+    "used_designators": "XBT1-2,U1-2,#PWR1-18,D1-20,S1,C1-5,P1,R1-3,TP1-5",
     "variants": []
   },
   "sheets": [
